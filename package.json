@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node -P ./server/server.tsconfig.json ./server/server.ts",
+    "start": "ts-node -P ./src/server.tsconfig.json ./src/server.ts",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
@@ -16,7 +16,6 @@
     "moment": "^2.22.2",
     "rxjs": "^6.5.4",
     "tslib": "^2.0.0"
-
   },
   "devDependencies": {
     "@types/node": "^12.11.1",
