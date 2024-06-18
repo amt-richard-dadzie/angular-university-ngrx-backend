@@ -35,10 +35,13 @@ app.route("/api/courses/:courseUrl").get(getCourseByUrl);
 
 app.route("/api/lessons").get(searchLessons);
 
-app.listen(9000, () => {
+const port = 9000;
+
+app.listen(port
+  , () => {
   console.log(
     "HTTP REST API Server running at http://localhost:" +
-      httpServer.address().port
+    port
   );
 });
 
