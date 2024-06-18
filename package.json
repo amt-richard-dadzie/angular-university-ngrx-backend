@@ -1,12 +1,12 @@
 {
   "name": "angular-ngrx-course",
   "version": "0.0.0",
-  "main": "server.ts",
+  "main": "index.ts",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node -P ./src/server.tsconfig.json ./src/server.ts",
+    "dev": "ts-node -P ./src/server.tsconfig.json ./src/index.ts",
     "build": "tsc -p .",
-    "start": "node dist/src/server.js",
+    "start": "node dist/src/index.js",
     "vercel-build": "echo hello",
     "lint": "ng lint",
     "e2e": "ng e2e"

@@ -41,3 +41,5 @@ const httpServer: any = app.listen(9000, () => {
       httpServer.address().port
   );
 });
+
+module.exports = app;
