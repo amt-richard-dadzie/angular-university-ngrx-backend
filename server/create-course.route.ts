@@ -1,7 +1,7 @@
 import {Request, Response} from 'express';
 import {COURSES} from './db-data';
 
-export var coursesKeyCounter = 100;
+ let coursesKeyCounter = 100;
 
 export function createCourse(req: Request, res: Response) {
 
