@@ -42,4 +42,4 @@ const httpServer: any = app.listen(9000, () => {
   );
 });
 
-module.exports = app;
+export default app;
